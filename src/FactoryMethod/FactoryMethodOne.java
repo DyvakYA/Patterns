@@ -1,4 +1,4 @@
-package FactoryMethod;
+package factoryMethod;
 
 import java.util.Date;
 /**

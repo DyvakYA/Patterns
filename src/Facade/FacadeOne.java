@@ -1,4 +1,4 @@
-package Facade;
+package facade;
 
 /**
  * Created by Dyvak on 19.11.2016.
@@ -24,6 +24,7 @@ class Computer{
         hdd.copyFromDVD(dvd);
     }
 }
+
 class Power{
     void on(){
         System.out.println("On");

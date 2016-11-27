@@ -1,4 +1,4 @@
-package Builder;
+package builder;
 
 /**
  * Created by Dyvak on 15.11.2016.

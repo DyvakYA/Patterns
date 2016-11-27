@@ -1,11 +1,10 @@
-package Strategy;
+package strategy;
 
 import java.util.Arrays;
 
 /**
  * Created by Dyvak on 19.11.2016.
  */
-
 public class StrategyOne {
     public static void main(String[] args) {
         StrategyClient c = new StrategyClient();
@@ -19,7 +18,7 @@ public class StrategyOne {
         c.executeStrategy(arr1);
 
         int[] arr2 ={1,32,-2,17,4,6,3,2};
-        c.setStrategy(new BubleSort());
+        c.setStrategy(new BubbleSort());
         c.executeStrategy(arr2);
     }
 }
@@ -31,13 +30,13 @@ class StrategyClient{
     public void executeStrategy(int[] arr) {strategy.sort(arr);}
 }
 
-//Strategy
+//strategy
 interface Sorting{
     void sort(int[] arr);
 }
 
 //Bubble sorting strategy (Сортировка пузырьком)
-class BubleSort implements Sorting {
+class BubbleSort implements Sorting {
     public void sort(int[] arr) {
         System.out.println("BubbleSort");
         System.out.println("until:\t" + Arrays.toString(arr));

@@ -1,4 +1,4 @@
-package Proxy;
+package proxy;
 
 /**
  * Created by Dyvak on 17.11.2016.
@@ -33,7 +33,6 @@ class RealImage implements Image {
         System.out.println("Watch" + file);
     }
 }
-
 
 class ProxyImage implements Image{
 
