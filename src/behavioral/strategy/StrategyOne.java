@@ -30,12 +30,12 @@ class StrategyClient{
     public void executeStrategy(int[] arr) {strategy.sort(arr);}
 }
 
-//behavioral.strategy
+//behavioral.behavioral.strategy.strategy
 interface Sorting{
     void sort(int[] arr);
 }
 
-//Bubble sorting behavioral.strategy (Сортировка пузырьком)
+//Bubble sorting behavioral.behavioral.strategy.strategy (Сортировка пузырьком)
 class BubbleSort implements Sorting {
     public void sort(int[] arr) {
         System.out.println("BubbleSort");
@@ -53,7 +53,7 @@ class BubbleSort implements Sorting {
     }
 }
 
-//Selection sorting behavioral.strategy (Сортировка выборками)
+//Selection sorting behavioral.behavioral.strategy.strategy (Сортировка выборками)
 class SelectSort implements Sorting {
     public void sort(int[] arr) {
         System.out.println("SelectSort");
@@ -71,7 +71,7 @@ class SelectSort implements Sorting {
     }
 }
 
-//Inserting sorting behavioral.strategy (Сортировка вставками)
+//Inserting sorting behavioral.behavioral.strategy.strategy (Сортировка вставками)
 class InsertSort implements Sorting {
     public void sort(int[] arr) {
         System.out.println("InsertSort");
