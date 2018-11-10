@@ -59,17 +59,20 @@ are familiar with the patterns.
  
  All designs should be as simple as possible. You should start with KISS, YAGNI, 
  and Do The Simplest Thing That Could Possibly Work principles, don`t forget about SOLID and DRY.
+ 
+  Once you are familiar with these concepts you can start drilling down into
+ patterns by any of the following approaches
+ 
+  # Warning
+ 
  Complexity and patterns should only be introduced when they are needed for practical
  extensibility.
  
- Once you are familiar with these concepts you can start drilling down into
- patterns by any of the following approaches
- 
- # Warning
- 
  Using design patterns in inappropriate places for this can lead to a violation of the principles of the OOP,
- code readability and application malfunction. 
- The number of bugs may increase and the code will cease to be supported. 
+ code readability and application malfunction.
+  
+ The number of bugs may increase and the code will cease to be supported.
+  
  The owner of this repository is not responsible for any consequences.
  
  # License
