@@ -1,16 +1,17 @@
 package behavioral.observer.observer;
 
-/**
- * Created by User on 5/20/2018.
- */
 public class Main {
     public static void main(String[] args) {
+        ChatSubject subject = new ChatSubject();
 
-        SecurityMan security = new SecurityDirector("Nickolas Cage");
+        new RegularClientObserver(subject);
+        new RegularClientObserver(subject);
+        new AdminClientObserver(subject);
 
-        Signaling signaling = new SecuritySignal();
-        signaling.addSubscriber(security);
-        signaling.signalAction("Alert!!!!!!");
-        signaling.signalAction("Some not bed signal");
+        System.out.println("First state:");
+        subject.setState("State #1");
+
+        System.out.println("Second state:");
+        subject.setState("State #2");
     }
 }

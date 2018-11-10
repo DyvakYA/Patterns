@@ -7,7 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-//        Product product = Product.creational.builder.builder()
+//        Product product = Product.creational.builder1.builder1()
 //                .name("newProduct")
 //                .description("newDescription")
 //                .build();

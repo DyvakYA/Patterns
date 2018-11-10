@@ -1,14 +1,11 @@
 package creational.builder.builder;
 
-/**
- * Created by User on 5/27/2018.
- */
 public class Main {
-
     public static void main(String[] args) {
-        Product product = Product.builder()
-                .name("qwe")
+        Laptop laptop = new Laptop.Builder()
+                .withHddCapasity(120)
+                .withProcessorType(ProcessorType.AMD)
+                .withScreenSize(15)
                 .build();
-        System.out.println(product);
     }
 }
