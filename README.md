@@ -1,6 +1,6 @@
 # Java design patterns
 [![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/DyvakYA/java-design-patterns/master/LICENSE.md)
-[![Build status](https://travis-ci.org/DyvakYA/java-design-patterns.svg?branch=master)](https://travis-ci.org/DyvakYA/java-design-patterns) 
+[![Build status](https://travis-ci.com/DyvakYA/java-design-patterns.svg?branch=master)](https://travis-ci.org/DyvakYA/java-design-patterns) 
 ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
 
 # Introduction
