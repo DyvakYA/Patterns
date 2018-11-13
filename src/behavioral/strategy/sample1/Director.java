@@ -5,7 +5,7 @@ package behavioral.strategy.sample1;
  */
 public class Director {
 
-    Developer developer;
+    private Developer developer;
 
     public void setDeveloper(Developer developer){
         this.developer = developer;

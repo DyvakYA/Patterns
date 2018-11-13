@@ -13,7 +13,6 @@ public class Main {
         Field[] fields = clazz.getDeclaredFields();
         Main str = new Main();
         System.out.println(str.toStringCountParameters(fields));
-
     }
 
     private String toStringCountParameters(Field[] fields) {

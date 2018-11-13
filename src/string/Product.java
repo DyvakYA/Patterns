@@ -5,10 +5,10 @@ package string;
  */
 public class Product {
 
-    int id;
-    String name;
-    String description;
-    String address;
+    private int id;
+    private String name;
+    private String description;
+    private String address;
 
     public int getId() {
         return id;
