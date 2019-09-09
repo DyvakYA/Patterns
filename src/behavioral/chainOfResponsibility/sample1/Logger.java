@@ -2,7 +2,7 @@ package behavioral.chainOfResponsibility.sample1;
 
 public abstract class Logger {
 
-    int priority;
+    private int priority;
 
     public Logger(int priority) {
         this.priority = priority;
@@ -21,6 +21,18 @@ public abstract class Logger {
         if (next != null) {
             next.writerMessage(message, level);
         }
+    }
+
+    public int getPriority() {
+        return priority;
+    }
+
+    public void setPriority(int priority) {
+        this.priority = priority;
+    }
+
+    public Logger getNext() {
+        return next;
     }
 
     abstract void write(String message);
