@@ -56,7 +56,7 @@ are familiar with the patterns.
  
  # Getting started
  
-    git clone https://github.com/dyvakyurii/java-design-patterns.git
+    git clone https://github.com/dyvakya/java-design-patterns.git
     
   Each of package contain Main.class where located psvm method
  
