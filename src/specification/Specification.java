@@ -1,4 +1,4 @@
 package specification;
 
-public class Specification {
+public interface Specification {
 }

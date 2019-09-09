@@ -69,7 +69,7 @@ are familiar with the patterns.
   Once you are familiar with these concepts you can start drilling down into
  patterns by any of the following approaches
  
-<<<<<<< HEAD
+
  ### Warning
  
  Complexity and patterns should only be introduced when they are needed for practical
@@ -83,9 +83,6 @@ are familiar with the patterns.
  The owner of this repository is not responsible for any consequences.
  
  ### License
-=======
- # License
->>>>>>> 64db4ecd57f2f629ef7f543a1bcea58eb33fae1e
  
  Free Software, Hell Yeah!
  
