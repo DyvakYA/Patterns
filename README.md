@@ -5,7 +5,7 @@
 
 # Introduction
 
-Design patterns are formalized bes practices that the programmer can use to
+Design patterns are formalized best practices that the programmer can use to
 solve common problems when designing an application or system. 
 
 Design patterns can speed up the development process by providing tested, proven
@@ -16,33 +16,34 @@ problems, and it also improves code readability for coders and architects who
 are familiar with the patterns.
 
  * [src](./src)
-   * [behavioral](./src/behavioral)
-     * [chain of responsibility](./src/behavioral/chainOfResponsibility)
-     * [command](./src/behavioral/command)
-     * [iterator](./src/behavioral/iterator)
-     * [mediator](./src/behavioral/mediator)
-     * [memento](./src/behavioral/memento)
-     * [observer](./src/behavioral/observer)
-     * [state](./src/behavioral/state)
-     * [strategy](./src/behavioral/strategy)
-     * [template method](./src/behavioral/templateMethod)
-     * [visitor](./src/behavioral/visitor)
-   * [creational](./src/creational)
-     * [abstract factory](./src/creational/abstractFactory)
-     * [builder](./src/creational/builder)
-     * [factory method](./src/creational/factoryMethod)
-     * [object pool](./src/creational/objectPool)
-     * [prototype](./src/creational/prototype)
-     * [singleton](./src/creational/singleton)
+    * [gang_of_four](src/gang_of_four)
+        * [creational](src/gang_of_four/_1_creational)
+            * [abstract factory](src/gang_of_four/_1_creational/_2_abstract_factory)
+            * [builder](src/gang_of_four/_1_creational/_5_builder)
+            * [factory method](src/gang_of_four/_1_creational/_1_factory_method)
+            * [object pool](src/objectPool)
+            * [prototype](src/gang_of_four/_1_creational/_4_prototype)
+            * [singleton](src/gang_of_four/_1_creational/_3_singleton)
+        * [structural](src/gang_of_four/_2_structural)
+            * [adapter](src/gang_of_four/_2_structural/_1_adapter)
+            * [composite](src/gang_of_four/_2_structural/_1_adapter)
+            * [decorator](src/gang_of_four/_2_structural/_4_decorator)
+            * [facade](src/gang_of_four/_2_structural/_5_facade)
+            * [fly weight](src/gang_of_four/_2_structural/_6_fly_weight)
+            * [proxy](src/gang_of_four/_2_structural/_7_proxy)
+        * [behavioral](src/gang_of_four/_3_behavioral)
+            * [chain of responsibility](src/gang_of_four/_3_behavioral/_1_chain_of_responsibility)
+            * [command](src/gang_of_four/_3_behavioral/_2_command)
+            * [iterator](src/gang_of_four/_3_behavioral/_3_iterator)
+            * [mediator](src/gang_of_four/_3_behavioral/_4_mediator)
+            * [memento](src/gang_of_four/_3_behavioral/_5_memento)
+            * [observer](src/gang_of_four/_3_behavioral/_6_observer)
+            * [state](src/gang_of_four/_3_behavioral/_7_state)
+            * [strategy](src/gang_of_four/_3_behavioral/_8_strategy)
+            * [template method](src/gang_of_four/_3_behavioral/_9_template_method)
+            * [visitor](src/gang_of_four/_3_behavioral/_10_visitor)
    * [fundamental](./src/fundamental)
-     * [delegation](./src/fundamental/delegation)
-   * [structural](./src/structural)
-     * [adapter](./src/structural/adapter)
-     * [composite](./src/structural/adapter)
-     * [decorator](./src/structural/decorator)
-     * [facade](./src/structural/facade)
-     * [fly weight](./src/structural/flyWeight)
-     * [proxy](./src/structural/proxy)
+   * [delegation](./src/fundamental/delegation)
    * [functional interface](./src/functionalInterface)
    * [list poly](./src/listPoly)
    * [string](./src/string)
@@ -55,6 +56,10 @@ are familiar with the patterns.
  
  # Getting started
  
+    git clone https://github.com/dyvakyurii/java-design-patterns.git
+    
+  Each of package contain Main.class where located psvm method
+ 
  Before you dive into the material, you should be familiar with various
  Programming/Software Design Principles.
  
@@ -64,21 +69,9 @@ are familiar with the patterns.
   Once you are familiar with these concepts you can start drilling down into
  patterns by any of the following approaches
  
-  # Warning
- 
- Complexity and patterns should only be introduced when they are needed for practical
- extensibility.
- 
- Using design patterns in inappropriate places for this can lead to a violation of the principles of the OOP,
- code readability and application malfunction.
-  
- The number of bugs may increase and the code will cease to be supported.
-  
- The owner of this repository is not responsible for any consequences.
- 
  # License
  
- This project is licensed under the terms of the MIT license.
+ Free Software, Hell Yeah!
  
 
 
