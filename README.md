@@ -1,9 +1,9 @@
-# Java design patterns
+
 [![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/DyvakYA/java-design-patterns/master/LICENSE.md)
 [![Build status](https://travis-ci.com/DyvakYA/java-design-patterns.svg?branch=master)](https://travis-ci.org/DyvakYA/java-design-patterns) 
 ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
-
-# Introduction
+# Java design patterns
+### Introduction
 
 Design patterns are formalized best practices that the programmer can use to
 solve common problems when designing an application or system. 
@@ -54,7 +54,7 @@ are familiar with the patterns.
  * [LICENSE](./LICENSE)
  * [README.md](./README.md)
  
- # Getting started
+ ### Getting started
  
     git clone https://github.com/dyvakya/java-design-patterns.git
     
@@ -69,7 +69,20 @@ are familiar with the patterns.
   Once you are familiar with these concepts you can start drilling down into
  patterns by any of the following approaches
  
- # License
+
+ ### Warning
+ 
+ Complexity and patterns should only be introduced when they are needed for practical
+ extensibility.
+ 
+ Using design patterns in inappropriate places for this can lead to a violation of the principles of the OOP,
+ code readability and application malfunction.
+  
+ The number of bugs may increase and the code will cease to be supported.
+  
+ The owner of this repository is not responsible for any consequences.
+ 
+ ### License
  
  Free Software, Hell Yeah!
  
